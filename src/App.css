@@ -7,4 +7,11 @@
   padding: 30px;
   border-radius: 8px;
   width: 400px;
+  min-width: 260px;
+}
+
+@media only screen and (max-width: 600px) {
+  .app {
+    width: 90vw;
+  }
 }

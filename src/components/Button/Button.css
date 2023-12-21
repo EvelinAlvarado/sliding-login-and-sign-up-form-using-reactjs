@@ -50,3 +50,8 @@
   border-radius: 8px;
   outline: var(--primary-color) solid 2px;
 }
+
+.custom-color {
+  background-color: rgba(218, 59, 46, 0.512);
+  color: var(--secondary-color);
+}

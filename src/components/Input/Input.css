@@ -41,3 +41,7 @@
   border-radius: 8px;
   outline: var(--accent-color) solid 2px;
 }
+
+.input-hidden {
+  display: none;
+}
