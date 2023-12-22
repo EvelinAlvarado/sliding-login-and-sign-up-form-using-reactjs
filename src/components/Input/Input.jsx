@@ -1,11 +1,13 @@
 import "./Input.css";
 
 function Input(props) {
-  /* cuando action es igual a Sign in y props title es igual a name, adicionar una clase para aplicar el estilo display:none class=inputHidden*/
+  // Conditionally set the class name for the form input based on the action and title.
+  // If the action is "Sign In" and the title is "Name," apply the "input-hidden" class; otherwise, use the default "form-input" class.
   const classNameHidden =
     props.action === "Sign In" && props.title === "Name"
       ? "form-input input-hidden"
       : "form-input";
+
   return (
     <div className={classNameHidden}>
       <label className="form-input-label" for={props.forId}>
